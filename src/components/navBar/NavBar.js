@@ -63,7 +63,7 @@ function NavBar() {
                 <Link to="#" onClick={closeMobileMenu} >Events</Link>
               </li>
               <li id="learn-nav">
-                <Link to="#" onClick={closeMobileMenu} >Learn</Link>
+                <Link to="/learn" onClick={closeMobileMenu} >Learn</Link>
                 <ul className="sub-menu"></ul>
               </li>
               <li id="join-nav">
