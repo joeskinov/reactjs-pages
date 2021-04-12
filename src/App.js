@@ -5,7 +5,7 @@ import Incubator from './pages/Incubator';
 import ViewIncubator from './pages/ViewIncubator';
 import ViewCourse from './pages/ViewCourse';
 import Learn from './pages/Learn';
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (

@@ -42,7 +42,6 @@ function ViewCourse(props) {
                               aria-expanded="true"
                               aria-controls="collapseOne"
                               class="active"
-                              onclick="ga('send', 'event', 'Button', 'Click', 'Program Overview', 1);"
                             >
                               Leasson 1
                             </a>
@@ -77,8 +76,8 @@ function ViewCourse(props) {
                         </div>
                       </div>
                       {
-                          [2,3,4,5,6,7,8,9,10].map((v) => (
-                            <div class="panel panel-default">
+                          [2,3,4,5,6,7,8,9,10].map((v, i) => (
+                            <div key={i} class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwo">
                               <h4 class="panel-title">
                                 <a
@@ -89,7 +88,6 @@ function ViewCourse(props) {
                                   href="#collapseTwo"
                                   aria-expanded="false"
                                   aria-controls="collapseTwo"
-                                  onclick="ga('send', 'event', 'Button', 'Click', 'Program Eligibility', 1);"
                                 >
                                   Leason {v}
                                 </a>

@@ -6,18 +6,22 @@ import courses from './../assets/courses.json';
 function Learn() {
     const categories = [
         {
+            id: '1',
             image: '/engineering.svg',
             title: 'Engineering',
         },
         {
+            id: '2',
             image: '/science.svg',
             title: 'Science',
         },
         {
+            id: '3',
             image: '/innovation.svg',
             title: 'Innovation',
         },
         {
+            id: '4',
             image: '/programming.svg',
             title: 'Programming',
         },
@@ -73,7 +77,7 @@ function Learn() {
                             <h1 className="cards-container-title">By Category</h1>
                             <div className="cards-wrapper">
                                 {categories.map((category) => (
-                                    <SimpleCard title={category.title} image={category.image} />
+                                    <SimpleCard key={category.id} title={category.title} image={category.image} />
                                 ))}
                             </div>
                         </div>

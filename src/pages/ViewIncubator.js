@@ -17,7 +17,7 @@ function ViewIncubator(props) {
                         <div className="container">
                            <div className="row details-view">
                                 <div className="col-sm-4 details--wrapper">
-                                    <img src={selectedStartup.ProjectLogo} />
+                                    <img src={selectedStartup.ProjectLogo} alt={selectedStartup.ProjectName} />
                                 </div>
                                 <div className="col-sm-4 details--wrapper">
                                     Project Name: <h1>{selectedStartup.ProjectName}</h1>
