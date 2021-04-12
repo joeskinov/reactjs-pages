@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.page-wrapper{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* Brand Gradient - 1 */
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+
+.page-container {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn--default {
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+
+.btn--secondary {
+  background: linear-gradient(161.32deg, #FF00B8 3.86%, #151371 98.64%);
+}
+
+.buttons-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.btn--large {
+  width: 25%;
+  height: 70px;
+  border: 0px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 26px;
+  line-height: 30px;
+  color: #fff;
+}

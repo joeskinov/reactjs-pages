@@ -1,0 +1,105 @@
+.banner-container {
+    height: 300px;
+    overflow: hidden;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+
+.globe-image {
+    margin-top: -5px;
+    height: 350px; 
+}
+
+.hand_lamp_img {
+    margin-top: -5px;
+    margin-left: 20px;
+    height: 350px; 
+}
+
+.butterfly_img {
+    margin-top: -50px;
+    margin-left: -12px;
+    height: 250px; 
+}
+
+.people-image {
+    width: 250px;
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+
+.banner-title {
+    width: 540px;
+    font-size: 46px;
+    float: right;
+}
+
+@media (max-width: 1199px) {
+    .globe-image {
+        height: 300px; 
+    }
+    
+    .hand_lamp_img {
+        margin-left: 15px;
+        height: 300px; 
+    }
+    
+    .butterfly_img {
+        height: 200px; 
+    }
+    
+    .people-image {
+        width: 200px;
+    }
+    
+    .banner-title {
+        width: 450px;
+        font-size: 40px;
+    }
+} 
+
+@media (max-width: 996px) {
+    .globe-image {
+        display: none;
+    }
+    
+    .hand_lamp_img {
+        margin-left: 10px;
+        height: 300px; 
+    }
+    
+    .butterfly_img {
+        margin-top: 10px;
+    }
+    
+    .people-image {
+        width: 150px;
+    }
+    
+    .banner-title {
+        width: 420px;
+        font-size: 35px;
+    }
+} 
+
+@media (max-width: 996px) {
+    
+    .hand_lamp_img {
+        display: none;
+    }
+    
+    .butterfly_img {
+        display: none;
+    }
+    
+    
+    .banner-title {
+        width: 84%;
+        font-size: 35px;
+    }
+} 
+
+.title-text {
+    margin-top: 75px;
+    margin-left: -50px;
+    color: #fff;
+}
