@@ -523,6 +523,9 @@
       outline: none;
       cursor: pointer;
     }
+
+    .header-navigation ul.navigation-box {
+      padding-top: 8%;}
   
     .menu-toggler:hover {
       border-color: #f16101;

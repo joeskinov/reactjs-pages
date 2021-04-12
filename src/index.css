@@ -12,12 +12,18 @@ code {
   text-align: center;
   padding-top: 100px;
 }
+
+.home-container  a {
+  display: block;
+  margin: 20px;
+}
 a {
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
+  color: #FF00B8;
 }
 
 .page-wrapper{
