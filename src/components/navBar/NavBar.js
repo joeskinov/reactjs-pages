@@ -27,7 +27,7 @@ function NavBar() {
                     </div>
                     <div className={click ? 'main-navigation show' : 'main-navigation hide'} style={{display: 'none' }}>
                         <ul className=" navigation-box">
-                        <li style={{marginRight: '10%', }}>
+                        <li style={{marginRight: '5%', }}>
                         <div className="connect-wallet-wrapper">
                             <button type="button" className="connect-walet" ><span className="connect-walet-text">Connect Wallet</span></button>
                         </div>

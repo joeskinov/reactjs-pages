@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 code {
@@ -12,6 +8,10 @@ code {
     monospace;
 }
 
+.home-container {
+  text-align: center;
+  padding-top: 100px;
+}
 a {
   text-decoration: none;
 }
@@ -43,6 +43,12 @@ a:hover {
   background: linear-gradient(161.32deg, #FF00B8 3.86%, #151371 98.64%);
 }
 
+.panel-heading {
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+.panel-title {
+  color: #fff;
+}
 .buttons-container {
   display: flex;
   text-align: center;
@@ -60,4 +66,37 @@ a:hover {
   font-size: 26px;
   line-height: 30px;
   color: #fff;
+}
+
+.cards-container {
+  padding: 0px 20px 0px 20px;
+}
+.cards-container-title {
+  color: #3C3B88;
+  font-size: 35px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.details-view {
+  padding: 20px;
+  height: 100%;
+}
+
+.details--wrapper {
+  text-align: center;
+}
+
+.details--btn-box {
+  padding-top: 10%;
+}
+.details--btn {
+  padding: 10px !important;
+  font-size: 30px;
 }

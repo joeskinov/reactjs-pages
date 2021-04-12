@@ -1,93 +1,9 @@
 import Banner from "../components/banner/Banner";
-import CardsContainer from "../components/cardsContainer/CardsContainer";
+import CourseCard from "../components/card/CourseCard";
 import SimpleCard from "../components/simpleCard/SimpleCard";
+import courses from './../assets/courses.json';
 
 function Learn() {
-    const coursesCards = [
-        {
-            image: '/orovault.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/mangoswap.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/minoritytank.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/MVC.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/orovault.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        }
-    ]
-
-    const featuredCards = [
-        {
-            image: '/orovault.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/mangoswap.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/MTTLogo.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/orovault.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        },
-        {
-            image: '/orovault.png',
-            textLogo: 'Intro to Blockchain',
-            title: 'blockchain, cryptocurrency fundamentals',
-            isGive: false,
-            earn: 30,
-            completeRatio: '8.3/10 Modules',
-        }
-    ]
     const categories = [
         {
             image: '/engineering.svg',
@@ -114,8 +30,44 @@ function Learn() {
                         title={'Learn high in Demand IT Skills & get crypto'} 
                         isIncubator={false}
                     />
-                    <CardsContainer title='My Courses' cards={coursesCards} />
-                    <CardsContainer title='Featured Courses' cards={featuredCards} />
+                    <div className="featured-wrapper">
+                        <div className="container cards-container">
+                            <h1 className="cards-container-title">My Courses</h1>
+                            <div className="cards-wrapper">
+                                {courses.map((card) => (
+                                    <CourseCard
+                                        key={card.id}
+                                        CourseTitle={card.CourseTitle}
+                                        CourseDescription={card.CourseDescription}
+                                        EarnAmount={card.EarnAmount}
+                                        LearnLink={card.LearnLink}
+                                        LessonsDone={card.LessonsDone}
+                                        LessonsCompleted={card.LessonsCompleted}
+                                    />
+                                    )
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="featured-wrapper">
+                        <div className="container cards-container">
+                            <h1 className="cards-container-title">Featured Courses</h1>
+                            <div className="cards-wrapper">
+                                {courses.map((card) => (
+                                    <CourseCard
+                                        key={card.id}
+                                        CourseTitle={card.CourseTitle}
+                                        CourseDescription={card.CourseDescription}
+                                        EarnAmount={card.EarnAmount}
+                                        LearnLink={card.LearnLink}
+                                        LessonsDone={card.LessonsDone}
+                                        LessonsCompleted={card.LessonsCompleted}
+                                    />
+                                    )
+                                )}
+                            </div>
+                        </div>
+                    </div>
                     <div className="featured-wrapper">
                         <div className="container cards-container">
                             <h1 className="cards-container-title">By Category</h1>

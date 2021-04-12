@@ -1,0 +1,228 @@
+{
+  "featured": [
+    {
+      "id": "1",
+      "ProjectName": "featured 1",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-1",
+      "LearnLink": "/incubator/1",
+      "isGive": true
+    },
+    {
+      "id": "2",
+      "ProjectName": "featured 2",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/mangoswap.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-2",
+      "LearnLink": "/incubator/2",
+      "isGive": true
+    },
+    {
+      "id": "3",
+      "ProjectName": "featured 3",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/minoritytank.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-3",
+      "LearnLink": "/incubator/3",
+      "isGive": true
+    },
+    {
+      "id": "4",
+      "ProjectName": "featured 4",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/MVC.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-4",
+      "LearnLink": "/incubator/4",
+      "isGive": true
+    },
+    {
+      "id": "5",
+      "ProjectName": "featured 5",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-5",
+      "LearnLink": "/incubator/5",
+      "isGive": true
+    }
+  ],
+  "upcoming": [
+    {
+      "id": "1",
+      "ProjectName": "upcoming 1",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-6",
+      "LearnLink": "/incubator/6",
+      "isGive": false
+    },
+    {
+      "id": "2",
+      "ProjectName": "upcoming 2",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-7",
+      "LearnLink": "/incubator/7",
+      "isGive": false
+    },
+    {
+      "id": "3",
+      "ProjectName": "upcoming 3",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-8",
+      "LearnLink": "/incubator/8",
+      "isGive": false
+    },
+    {
+      "id": "4",
+      "ProjectName": "upcoming 4",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-9",
+      "LearnLink": "/incubator/9",
+      "isGive": false
+    },
+    {
+      "id": "5",
+      "ProjectName": "upcoming 5",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-10",
+      "LearnLink": "/incubator/10",
+      "isGive": false
+    }
+  ],
+  "all": [
+    {
+      "id": "1",
+      "ProjectName": "featured 1",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-1",
+      "LearnLink": "/incubator/1",
+      "isGive": true
+    },
+    {
+      "id": "2",
+      "ProjectName": "featured 2",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/mangoswap.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-2",
+      "LearnLink": "/incubator/2",
+      "isGive": true
+    },
+    {
+      "id": "3",
+      "ProjectName": "featured 3",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/minoritytank.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-3",
+      "LearnLink": "/incubator/3",
+      "isGive": true
+    },
+    {
+      "id": "4",
+      "ProjectName": "featured 4",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/MVC.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-4",
+      "LearnLink": "/incubator/4",
+      "isGive": true
+    },
+    {
+      "id": "5",
+      "ProjectName": "featured 5",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-5",
+      "LearnLink": "/incubator/5",
+      "isGive": true
+    },
+    {
+      "id": "6",
+      "ProjectName": "upcoming 1",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-6",
+      "LearnLink": "/incubator/6",
+      "isGive": false
+    },
+    {
+      "id": "7",
+      "ProjectName": "upcoming 2",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-7",
+      "LearnLink": "/incubator/7",
+      "isGive": false
+    },
+    {
+      "id": "8",
+      "ProjectName": "upcoming 3",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-8",
+      "LearnLink": "/incubator/8",
+      "isGive": false
+    },
+    {
+      "id": "9",
+      "ProjectName": "upcoming 4",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-9",
+      "LearnLink": "/incubator/9",
+      "isGive": false
+    },
+    {
+      "id": "10",
+      "ProjectName": "upcoming 5",
+      "ProjectDescription": "changing the way you gold forever",
+      "ProjectLogo": "/orovault.png",
+      "CurrentFunding": "$83,000",
+      "FundingGoal": "$100,000",
+      "GiveLink": "/give-10",
+      "LearnLink": "/incubator/10",
+      "isGive": false
+    }
+  ]
+}
